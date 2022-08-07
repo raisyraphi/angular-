@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule,routingvar } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ClasslistComponent } from './classlist/classlist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    routingvar,
+    ClasslistComponent
   ],
   imports: [
     BrowserModule,
